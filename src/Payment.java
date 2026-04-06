@@ -11,7 +11,7 @@ public class Payment {
   // Fields
   //
 
-  private String{id} id;
+  private String id;
   private Date paid;
   private Real total;
   private String details;
@@ -34,7 +34,7 @@ public class Payment {
    * Set the value of id
    * @param newVar the new value of id
    */
-  public void setId (String{id} newVar) {
+  public void setId (String newVar) {
     id = newVar;
   }
 
@@ -42,7 +42,7 @@ public class Payment {
    * Get the value of id
    * @return the value of id
    */
-  public String{id} getId () {
+  public String getId () {
     return id;
   }
 
