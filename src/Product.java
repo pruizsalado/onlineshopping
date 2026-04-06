@@ -11,7 +11,7 @@ public class Product {
   // Fields
   //
 
-  private String{id} id;
+  private String id;
   private String name;
   private Supplier supplier;
   
@@ -33,7 +33,7 @@ public class Product {
    * Set the value of id
    * @param newVar the new value of id
    */
-  public void setId (String{id} newVar) {
+  public void setId (String newVar) {
     id = newVar;
   }
 
@@ -41,7 +41,7 @@ public class Product {
    * Get the value of id
    * @return the value of id
    */
-  public String{id} getId () {
+  public String getId () {
     return id;
   }
 
