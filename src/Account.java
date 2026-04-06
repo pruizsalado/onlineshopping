@@ -11,15 +11,15 @@ public class Account {
   // Fields
   //
 
-  private String{id} id;
+  private String id;
   private Address billing_address;
   private Boolean is_closed;
   private Date open;
   private Date closed;
   private Customer new_attribute;
   private Customer new_attribute_1;
-  private Shopping Cart new_attribute_2;
-  private Shopping Cart new_attribute_3;
+  private Shopping_Cart new_attribute_2;
+  private Shopping_Cart new_attribute_3;
   private Customer new_attribute_4;
   private Order new_attribute_5;
   
@@ -41,7 +41,7 @@ public class Account {
    * Set the value of id
    * @param newVar the new value of id
    */
-  public void setId (String{id} newVar) {
+  public void setId (String newVar) {
     id = newVar;
   }
 
@@ -49,7 +49,7 @@ public class Account {
    * Get the value of id
    * @return the value of id
    */
-  public String{id} getId () {
+  public String getId () {
     return id;
   }
 
@@ -153,7 +153,7 @@ public class Account {
    * Set the value of new_attribute_2
    * @param newVar the new value of new_attribute_2
    */
-  public void setNew_attribute_2 (Shopping Cart newVar) {
+  public void setNew_attribute_2 (Shopping_Cart newVar) {
     new_attribute_2 = newVar;
   }
 
@@ -161,7 +161,7 @@ public class Account {
    * Get the value of new_attribute_2
    * @return the value of new_attribute_2
    */
-  public Shopping Cart getNew_attribute_2 () {
+  public Shopping_Cart getNew_attribute_2 () {
     return new_attribute_2;
   }
 
@@ -169,7 +169,7 @@ public class Account {
    * Set the value of new_attribute_3
    * @param newVar the new value of new_attribute_3
    */
-  public void setNew_attribute_3 (Shopping Cart newVar) {
+  public void setNew_attribute_3 (Shopping_Cart newVar) {
     new_attribute_3 = newVar;
   }
 
@@ -177,7 +177,7 @@ public class Account {
    * Get the value of new_attribute_3
    * @return the value of new_attribute_3
    */
-  public Shopping Cart getNew_attribute_3 () {
+  public Shopping_Cart getNew_attribute_3 () {
     return new_attribute_3;
   }
 
