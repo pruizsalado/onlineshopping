@@ -11,7 +11,7 @@ public class Customer {
   // Fields
   //
 
-  private String{id} id;
+  private String id;
   private Address address;
   private Phone phone;
   /**
@@ -39,7 +39,7 @@ public class Customer {
    * Set the value of id
    * @param newVar the new value of id
    */
-  public void setId (String{id} newVar) {
+  public void setId (String newVar) {
     id = newVar;
   }
 
@@ -47,7 +47,7 @@ public class Customer {
    * Get the value of id
    * @return the value of id
    */
-  public String{id} getId () {
+  public String getId () {
     return id;
   }
 
