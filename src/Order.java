@@ -11,7 +11,7 @@ public class Order {
   // Fields
   //
 
-  private String{id} number;
+  private String number;
   private Date ordered;
   private Date shipped;
   private Address ship_to;
@@ -38,7 +38,7 @@ public class Order {
    * Set the value of number
    * @param newVar the new value of number
    */
-  public void setNumber (String{id} newVar) {
+  public void setNumber (String newVar) {
     number = newVar;
   }
 
@@ -46,7 +46,7 @@ public class Order {
    * Get the value of number
    * @return the value of number
    */
-  public String{id} getNumber () {
+  public String getNumber () {
     return number;
   }
 
