@@ -11,7 +11,7 @@ public class Web_User {
   // Fields
   //
 
-  private String{id} login_id;
+  private String login_id;
   private String password;
   private UserState state;
   
@@ -33,7 +33,7 @@ public class Web_User {
    * Set the value of login_id
    * @param newVar the new value of login_id
    */
-  public void setLogin_id (String{id} newVar) {
+  public void setLogin_id (String newVar) {
     login_id = newVar;
   }
 
@@ -41,7 +41,7 @@ public class Web_User {
    * Get the value of login_id
    * @return the value of login_id
    */
-  public String{id} getLogin_id () {
+  public String getLogin_id () {
     return login_id;
   }
 
