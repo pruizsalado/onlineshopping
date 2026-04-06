@@ -16,11 +16,7 @@ public class Account {
   private Boolean is_closed;
   private Date open;
   private Date closed;
-  private Customer new_attribute;
-  private Customer new_attribute_1;
-  private Shopping Cart new_attribute_2;
-  private Shopping Cart new_attribute_3;
-  private Customer new_attribute_4;
+  private Shopping_Cart new_attribute_1;
   private Order new_attribute_5;
   
   //
